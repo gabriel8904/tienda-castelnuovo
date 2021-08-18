@@ -1,8 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
+
+import App from "./App"
+
 import "./estilos.css"
 
-//const a = <p>Hola Mundo</p>
-
 import NavBar from "./components/NavBar"
-ReactDOM.render(<NavBar/>,document.getElementById('root'))
+ReactDOM.render(<App/>,document.getElementById('root'))

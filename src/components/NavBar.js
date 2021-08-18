@@ -1,3 +1,5 @@
+import CartWidget from "./CartWidget"
+
 const NavBar = () => {
     return (
         <div class="container-fluid">
@@ -45,6 +47,7 @@ const NavBar = () => {
                     </nav>
                 </div>
             </div>
+            <CartWidget/>
         </div>
     );
 };
