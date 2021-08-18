@@ -1,0 +1,333 @@
+* {
+    font-family: 'Montserrat', sans-serif; }
+  
+  .bg-nuestro {
+    background-color: whitesmoke; }
+  
+  .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px; }
+  
+  body {
+    overflow-x: hidden; }
+  
+  .rowSinMargin {
+    margin-right: 0px !important;
+    margin-left: 0px !important; }
+  
+  .bg--footer {
+    margin-top: 50px;
+    padding: 30px 10px 10px 10px;
+    text-align: center; }
+  
+  .logo--footer__ubicacion {
+    padding-left: 20px; }
+  
+  .bloque {
+    width: 10%; }
+  
+  .saltoDeLinea {
+    display: block; }
+  
+  .encabezado {
+    text-align: center;
+    padding: 50px; }
+  
+  .txt--servicios {
+    text-align: center; }
+  
+  .bg--copy {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center; }
+  
+  @media only screen and (max-width: 768px) {
+    .modificacionMovile {
+      padding: 20px; }
+    span {
+      font-size: 18px; }
+    .txt--servicios {
+      font-size: 23px;
+      text-align: justify; }
+    .desaparecerMovil {
+      display: none; }
+    .bg--copy {
+      text-align: center; }
+    .carousel {
+      margin-top: 52px; } }
+  
+  @media only screen and (min-width: 1024px) {
+    .modificacionMovile {
+      padding: 20px; }
+    span {
+      font-size: 22px; } }
+  
+  .titulos {
+    background-color: black;
+    text-align: center; }
+  
+  .titulos__iluminacion {
+    color: black;
+    margin-top: 4rem; }
+  
+  .titulos__colgantesYApliques {
+    color: whitesmoke;
+    padding: 20px 20px 50px 10px; }
+  
+  .footer__information--ubicacionlogo {
+    width: 200px; }
+  
+  .colgante__nombre {
+    color: black; }
+  
+  .colgante__detalles {
+    color: black;
+    text-align: right; }
+  
+  .texto__lamparas {
+    text-align: left; }
+  
+  .dim__imagen-dafne {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-dafnemini {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-tiuv {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-geoda {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-cylin {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-aztec {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-mixe {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-tonal {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-kaverno {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-brique {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-totem {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .dim__imagen-block {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .logo {
+    display: flex;
+    width: 100px;
+    text-align: left; }
+  
+  .navbar {
+    background-color: whitesmoke;
+    opacity: 0.75; }
+  
+  .nav-link {
+    color: black; }
+  
+  .nav-link:hover {
+    color: #ca1d1d; }
+  
+  .navbar-toggler {
+    color: whitesmoke; }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+  
+  .navbar-toggler {
+    border-color: black; }
+  
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box; }
+  
+  form {
+    border: solid 3px;
+    width: 400px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: whitesmoke; }
+  
+  h5 {
+    text-align: center; }
+  
+  @media only screen and (max-width: 450px) {
+    form {
+      width: 90%; }
+    input {
+      width: 95%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box; }
+    textarea {
+      width: 95%; } }
+  
+  .whatsappbutton {
+    background-color: #7ACC72;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px !important;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer; }
+  
+  #compras{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .input2 {
+    width: 100px;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box; }
+  
+  #form2 {
+    border: solid 3px;
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: whitesmoke; }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    .item {
+      padding: 10px;
+      border-radius: 20px;
+    }
+    
+    .item-title {
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: black;
+      text-align: center;
+      font-weight: 400;
+    }
+    
+    .item-image {
+      height: 100%;
+      width: 100%;
+    }
+    
+    .item-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0px 15px;
+    }
+    
+    .item-details > .item-price {
+      margin: 0;
+    }
+    
+    /* ? SHOPPING CART */
+    .shopping-cart-items {
+      padding: 20px 0px;
+    }
+    
+    .shopping-cart-header {
+      border-bottom: 1px solid #ccc;
+    }
+    
+    .shopping-cart-image {
+      max-width: 80px;
+      border-radius: 20px;
+    }
+    
+    .shopping-cart-quantity-input {
+      max-width: 45px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #eee;
+      padding: 5px;
+    }
+    
+    .shopping-cart-total {
+      min-height: 96px;
+    }
+  
+    #productoAgregadoAlCarrito{
+      text-align: center;
+      font-weight: bold;
+      color: green;
+  
+    }
+  
+    #productoAgregadoAlCarrito02{
+      text-align: center;
+      font-weight: bold;
+      color: green;
+  
+    }
+  
